@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Jugend forscht – Schüler experimientieren – Regionalsieg Braunschweig – 1. Preis Technik",
+        "description": "Am {date} gewann {person} mit TheVideoTrain den 1. Preis Technik in der Juniorensparte Schüler experimentieren des Wettbewerbs <a target=\"_blank\" href=\"https://jugend-forscht.de/\">Jugend forscht</a> in dem Regionalbezirk Braunschweig.",
+        "person": "Hinrich Schlobohm",
+        "date": "02/28/2022",
+        "proof": [
+            "https://www.youtube.com/watch?v=-fjOsfxh3U8&t=1903s",
+            "https://regionalheute.de/helmstedt/gymnasium-anna-sophianeum-gewinnt-bei-jugend-forscht-helmstedt-1646127131/",
+            "https://www.braunschweiger-zeitung.de/helmstedt/article234708449/13-Jaehriger-aus-Koenigslutter-entwickelt-Lernvideo-Plattform.html/"
+        ]
+    }
+]
