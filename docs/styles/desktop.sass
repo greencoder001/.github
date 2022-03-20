@@ -1,3 +1,5 @@
+@import 'colors'
+
 .desktop-nav
     display: block
 
@@ -42,3 +44,40 @@
                 &:hover
                     cursor: pointer
                     text-decoration: underline
+
+.large-image-container
+    background: $lightgreen
+
+    .imgcontainer
+        width: 35vw
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+
+        img
+            margin-left: 5%
+            margin-top: 5%
+            margin-bottom: 5%
+            max-width: 95% !important
+            max-height: 90% !important
+    
+    .slogancontainer
+        width: 100vw - 35vw
+        height: 100%
+        position: absolute
+        right: 0
+        top: 0
+        display: flex
+        align-items: center
+
+        .rawtextcontainer
+            text-align: center
+            width: 100%
+            height: auto
+
+            h1
+                font-size: 7.5vw
+            
+            h2
+                font-size: 2vw
