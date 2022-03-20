@@ -48,7 +48,7 @@ function loadAuszeichnungen () {
                 <h3>${auszeichnung.name}</h3>
                 <p>${auszeichnung.description}</p>
                 <br>
-                <p><b>Nachweise:</b><br><ul>${nachweisliste}</ul></p>
+                <p style="text-align:left;"><b>Nachweise:</b><br><ul>${nachweisliste}</ul></p>
             `
 
             if (auszeichnung.date) {

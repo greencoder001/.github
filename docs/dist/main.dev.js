@@ -77,7 +77,7 @@ function loadAuszeichnungen() {
           }
         }
 
-        var html = "\n                ".concat(i == 0 ? '' : '<hr>', "\n                <h3>").concat(auszeichnung.name, "</h3>\n                <p>").concat(auszeichnung.description, "</p>\n                <br>\n                <p><b>Nachweise:</b><br><ul>").concat(nachweisliste, "</ul></p>\n            ");
+        var html = "\n                ".concat(i == 0 ? '' : '<hr>', "\n                <h3>").concat(auszeichnung.name, "</h3>\n                <p>").concat(auszeichnung.description, "</p>\n                <br>\n                <p style=\"text-align:left;\"><b>Nachweise:</b><br><ul>").concat(nachweisliste, "</ul></p>\n            ");
 
         if (auszeichnung.date) {
           auszeichnung.date.replace('$1/$2/$3', '$2.$1.$3');
