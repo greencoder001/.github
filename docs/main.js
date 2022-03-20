@@ -48,11 +48,15 @@ function loadAuszeichnungen () {
                 <h3>${auszeichnung.name}</h3>
                 <p>${auszeichnung.description}</p>
                 <br>
-                <p style="text-align:left;"><b>Nachweise:</b><br><ul>${nachweisliste}</ul></p>
+                <p style="text-align:left;">
+                    <b>Nachweise:</b>
+                    <br>
+                    <ul style="text-align:left;">${nachweisliste}</ul>
+                </p>
             `
 
             if (auszeichnung.date) {
-                auszeichnung.date.replace('$1/$2/$3', '$2.$1.$3')
+                auszeichnung.date = auszeichnung.date.replace(/(.*?)\/(.*?)\/(.*?)/, '$2.$1.$3')
             }
 
             html = html.replace(/\{(.*?)\}/g, function (match, key) {
