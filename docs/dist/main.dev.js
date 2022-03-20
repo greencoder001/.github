@@ -60,7 +60,7 @@ function loadAuszeichnungen() {
         try {
           for (var _iterator2 = auszeichnung.proof[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
             var nachweis = _step2.value;
-            nachweisliste += "<li><a target=\"_blank\" href=\"".concat(nachweis, "\">").concat(nachweis, "</a></li>");
+            nachweisliste += "<li>- <a target=\"_blank\" href=\"".concat(nachweis, "\">").concat(nachweis, "</a></li>");
           }
         } catch (err) {
           _didIteratorError2 = true;

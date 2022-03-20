@@ -40,7 +40,7 @@ function loadAuszeichnungen () {
             let nachweisliste = ''
 
             for (const nachweis of auszeichnung.proof) {
-                nachweisliste += `<li><a target="_blank" href="${nachweis}">${nachweis}</a></li>`
+                nachweisliste += `<li>- <a target="_blank" href="${nachweis}">${nachweis}</a></li>`
             }
 
             let html = `
