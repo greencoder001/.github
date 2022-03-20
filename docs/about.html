@@ -36,7 +36,7 @@
                 <h2 onclick="location='/'">TheVideoTrain</h2>
             </div>
             <ul class="desktopnav-ul">
-                <li><a href="#">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/about">Über uns</a></li>
                 <li><a href="/features">Funktionen</a></li>
                 <li><a href="/benefits">Vorteile</a></li>
@@ -56,11 +56,26 @@
                 <li class="trybtn"><a href="/try">Jetzt kostenfrei testen <i class="fas fa-arrow-right"></i></a></li>
         </ul>
 
-        <main style="padding: 2%">
-            <h1>Über TheVideoTrain</h1>
+        <main style="padding-top:3%">
+            <h1 style="margin-left:3%;">Über TheVideoTrain</h1>
+            <br>
 
-            <h2>Das Team</h2>
-            <div class="teamcontainer">
+            <div class="twosectioncontainer">
+                <section>
+                    <h2>Ideenfindung</h2>
+                    <p id="ideenfindung">Gerade in Zeiten von Corona und Lockdown kam die Idee auf, dass es sinnvoll wäre, den SchülerInnen Lernvideos zur Verfügung zu stellen. Meine Mutter ist Grundschullehrerin und ich konnte beobachten, wie sie Homeschooling durchführte. Ich konnte sehen, wie es schwierig war, den SchülerInnen Lerninhalte zu vermitteln und wir kamen auf die Idee, gemeinsam Lernvideos zu produzieren. Anfangs wollte meine Mutter diese Videos nur ihrer Schule zur Verfügung stellen und nicht allgemein veröffentlichen. Dies war jedoch mit Plattformen, wie z.B. YouTube, nicht möglich. Deshalb mussten wir die Videos auf „nicht gelistet“ setzen und jeder einzelnen SchülerIn bzw. deren Eltern den Link auf das Video mitteilen. Zudem blieb das Datenschutzproblem, da öffentliche Plattformen auf interne, persönliche Inhalte zugreifen könnten. Ohne Zustimmung der Erziehungsberechtigten durften SchülerInnen diese Hilfe für das Distanzlernen nicht nutzen. Da zeichnete sich schon ab, dass eine Plattform, die dies alles vereinfacht, sinnvoll sein würde.</p>
+                </section>
+                <script>
+                    $$('#ideenfindung').append(` TheVideoTrain ist nun bereits seit ${experience()} stetig in Entwicklung.`)
+                </script>
+                <section>
+                    <h2>Ziele</h2>
+                    <p>Das Hauptziel von TheVideoTrain ist es, LehrerInnen und SchülerInnen das Arbeiten mit Lernvideos unter Einhaltung gültiger Datenschutzvereinbarungen zu erleichtern. LehrerInnen sollen angeregt werden, eigene Lernvideos zu erstellen und in einem geschützten Raum ihren SchülerInnen zur Verfügung zu stellen. Für Schulen sollen Server mit einer vorinstallierten Version von TheVideoTrain angeboten werden. Zudem ist es das Ziel, für SchülerInnen und LehrerInnen die Nutzung von Lernvideos als digitales Lernmittel stets zu vereinfachen.</p>
+                </section>
+            </div>
+
+            <h2 style="margin-left:3%;">Das Team</h2>
+            <div style="margin-bottom: 10vh;" class="teamcontainer">
                 <div class="teammate">
                     <img src="teammates/hinrich-schlobohm.png" alt="Hinrich Schlobohm">
                     <h2>Hinrich Schlobohm</h2>

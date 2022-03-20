@@ -5,19 +5,19 @@ function timeSince(date) {
   var interval = seconds / 31536000;
 
   if (interval > 1) {
-    return Math.floor(interval) + " Jahre";
+    return Math.floor(interval) + " Jahren";
   }
 
   interval = seconds / 2592000;
 
   if (interval > 1) {
-    return Math.floor(interval) + " Monate";
+    return Math.floor(interval) + " Monaten";
   }
 
   interval = seconds / 86400;
 
   if (interval > 1) {
-    return Math.floor(interval) + " Tage";
+    return Math.floor(interval) + " Tagen";
   }
 
   interval = seconds / 3600;
